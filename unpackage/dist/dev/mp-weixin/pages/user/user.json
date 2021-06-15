@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": 500,
+  "usingComponents": {
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-rate": "/uview-ui/components/u-rate/u-rate",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "loading": "/component/xuan-loading/xuan-loading"
+  }
+}

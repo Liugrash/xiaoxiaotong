@@ -1,0 +1,172 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/home/home",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "校小通",
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path" : "pages/modifyInformation/modifyInformation",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "修改个人信息",
+				"navigationBarBackgroundColor": "#84b7f9",
+				"navigationStyle":"custom",
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "接单",
+				"enablePullDownRefresh":true
+			}
+		},{
+			"path":"pages/success/success",
+			"style":{
+				"navigationBarTitleText": "接单成功",
+				"enablePullDownRefresh":false
+			}
+		},{
+			"path" : "pages/failure/failure",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "接单失败",
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path" : "pages/detail/detail",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+			}
+    },{
+			"path" : "pages/pickOrder/pickOrder",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "我的接单",
+				"enablePullDownRefresh": false
+			}
+    },{
+			"path" : "pages/myOrder/myOrder",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance":500
+			}
+		},{
+			"path" : "pages/placeOrder/placeOrder",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance":500
+			}
+		},{
+			"path" : "pages/user/user",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance":500
+			}
+		},{
+			"path" : "pages/placeOrder/fillOrder/carry-out/carry-out",
+			"style" :                                                                                    
+			{
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance":500
+			}
+		},{
+			"path" : "pages/placeOrder/fillOrder/studyGuidance/studyGuidance",
+			"style" :                                                                                    
+			{
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance":500
+			}
+		},{
+			"path" : "pages/placeOrder/fillOrder/express/express",
+			"style" :                                                                                    
+			{
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance":500
+			}
+		},{
+			"path" : "pages/placeOrder/fillOrder/testForm/testForm",
+			"style" :                                                                       
+			{
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance":500
+			}
+		},{
+			"path" : "pages/placeOrder/fillOrder/organizeTeam/organizeTeam",
+			"style" :                                                                       
+			{
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance":500
+			}
+		},{
+			"path" : "pages/placeOrder/succeed/succeed",
+			"style" :                                                                       
+			{
+				"navigationBarTitleText":"成功下单",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance":500
+			}
+		}    ,{
+            "path" : "pages/webLink/webLink",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+		"globalStyle": {
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "校小通",
+			"navigationBarBackgroundColor": "#84b7f9",
+			"backgroundColor": "#F8F8F8"
+		},
+		"tabBar":{
+			"selectedColor":"#1296db",
+			"list":[{
+				"text":"首页",
+				"pagePath":"pages/home/home",
+				"iconPath":"static/home.png",
+				"selectedIconPath":"static/home-active.png"
+			},
+			{
+				"text":"接单",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/recevingOrder.png",
+				"selectedIconPath":"static/recevingOrder-active.png"
+			},
+			{
+				"text":"下单",
+				"pagePath":"pages/placeOrder/placeOrder",
+				"iconPath":"static/placeOrder.png",
+				"selectedIconPath":"static/placeOrder-active.png"
+			},
+			{
+				"text":"个人",
+				"pagePath":"pages/user/user",
+				"iconPath":"static/person.png",
+				"selectedIconPath":"static/person-active.png"
+			}]
+		}
+}
+// {
+// 	"text":"接单",
+// 	"pagePath":"pages/pickOrder/pickOrder",
+// 	"iconPath":"static/recevingOrder.png",
+// 	"selectedIconPath":"static/recevingOrder-active.png"
+// }

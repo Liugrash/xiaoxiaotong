@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": 500,
+  "usingComponents": {
+    "u-grid": "/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uview-ui/components/u-grid-item/u-grid-item",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top",
+    "order": "/component/order/order"
+  }
+}

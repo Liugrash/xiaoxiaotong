@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'icon';  /* Project id 2587593 */
+  src: url('https://at.alicdn.com/t/font_2587593_seb4uqtkgcj.woff2?t=1622768471533') format('woff2'),
+       url('https://at.alicdn.com/t/font_2587593_seb4uqtkgcj.woff?t=1622768471533') format('woff'),
+       url('https://at.alicdn.com/t/font_2587593_seb4uqtkgcj.ttf?t=1622768471533') format('truetype');
+}
+.icon {
+  font-family: "icon" !important;
+  font-size: 30px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-bianji:before {
+  content: "\e601";
+}
+.icon-chenggongsvg:before {
+  content: "\e631";
+}
+.icon-fudao11x:before {
+  content: "\e610";
+}
+.icon-waimai:before {
+  content: "\e7ae";
+}
+.icon-kuaidi1:before {
+  content: "\e600";
+}
+.icon-zudui:before {
+  content: "\e773";
+}
+.words{
+		font-size: 40rpx;
+}
+.container{
+		padding-top: 40rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+}
+.container .box{
+		width: 100%;
+		display: table;
+		border-collapse: separate;
+		border-spacing: 80rpx 20rpx;
+		padding-top: 20rpx;
+}
+._span{
+		display: table-cell;
+		vertical-align: middle;
+		margin-right: 40rpx;
+		color: #00b894;
+}
+button{
+		display: table-cell;
+		vertical-align: middle;
+		height: 30rpx;
+		width: 300rpx;  
+        background-color: #00cec9;  
+        border-color: #0984e3;  
+        color: #fff;  
+        border-radius: 20rpx; 
+        -khtml-border-radius: 10rpx; 
+        text-align: center;  
+        vertical-align: middle;  
+        border: 1rpx solid transparent;  
+        font-weight: 900;  
+        font-size:125%
+}
+

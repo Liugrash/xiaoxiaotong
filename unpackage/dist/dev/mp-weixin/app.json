@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/modifyInformation/modifyInformation",
+    "pages/index/index",
+    "pages/success/success",
+    "pages/failure/failure",
+    "pages/detail/detail",
+    "pages/pickOrder/pickOrder",
+    "pages/myOrder/myOrder",
+    "pages/placeOrder/placeOrder",
+    "pages/user/user",
+    "pages/placeOrder/fillOrder/carry-out/carry-out",
+    "pages/placeOrder/fillOrder/studyGuidance/studyGuidance",
+    "pages/placeOrder/fillOrder/express/express",
+    "pages/placeOrder/fillOrder/testForm/testForm",
+    "pages/placeOrder/fillOrder/organizeTeam/organizeTeam",
+    "pages/placeOrder/succeed/succeed",
+    "pages/webLink/webLink"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校小通",
+    "navigationBarBackgroundColor": "#84b7f9",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/home",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png"
+      },
+      {
+        "text": "接单",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/recevingOrder.png",
+        "selectedIconPath": "static/recevingOrder-active.png"
+      },
+      {
+        "text": "下单",
+        "pagePath": "pages/placeOrder/placeOrder",
+        "iconPath": "static/placeOrder.png",
+        "selectedIconPath": "static/placeOrder-active.png"
+      },
+      {
+        "text": "个人",
+        "pagePath": "pages/user/user",
+        "iconPath": "static/person.png",
+        "selectedIconPath": "static/person-active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

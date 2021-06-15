@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.express {
+  border: 6rpx solid #0984e3;
+  box-shadow: 8rpx 8rpx 10rpx 8rpx #c1c6cf;
+}
+.learn {
+  border: 6rpx solid #74b9ff;
+  box-shadow: 8rpx 8rpx 10rpx  8rpx #c1c6cf;
+}
+.travel {
+  border: 6rpx solid #81ecec;
+  box-shadow: 8rpx 8rpx 10rpx  8rpx #c1c6cf;
+}
+.buy {
+  border: 6rpx solid #55efc4;
+  box-shadow: 8rpx 8rpx 10rpx 8rpx #c1c6cf;
+}
+.root {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  border-radius: 40rpx;
+  padding: 40rpx 30rpx;
+  padding-top: 30rpx;
+  margin-bottom: 40rpx;
+}
+.root .left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin-right: 10rpx;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+}
+.root .left .top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-bottom: 20rpx;
+}
+.root .left .top .icon {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.root .left .top .title {
+  font-size: 50rpx;
+  font-weight: 700;
+}
+.root .info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.root .info .row {
+  margin-bottom: 20rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+}
+.root .info .row .text {
+  font-size: 30rpx;
+}
+.root .info .gereral {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.root .info .gereral .abstract {
+  font-size: 40rpx;
+  font-weight: 700;
+}
+.root .info .gereral .detail {
+  font-size: 30rpx;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+}
+.right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  position: relative;
+}
+.right .salary {
+  position: absolute;
+  top: 0px;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+}
+.right .salary .text {
+  font-size: 35rpx;
+  font-weight: 600;
+}
+.right .confirm-btn {
+  position: absolute;
+  bottom: 0px;
+}
+

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "接单",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-tabs-swiper": "/uview-ui/components/u-tabs-swiper/u-tabs-swiper",
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "messagelist": "/component/messageList/messageList"
+  }
+}
